@@ -1,6 +1,5 @@
-class TrieNode {
+class Trie {
     constructor() {
-        this.end = false;
-        this.children = {};
+        this.root = new TrieNode();
     }
 }
