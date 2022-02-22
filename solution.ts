@@ -1,9 +1,7 @@
-class TrieNode {
-    children: { [key: string]: TrieNode };
-    endOfWord: boolean;
+class Trie {
+    root: TrieNode;
 
     constructor() {
-        this.children = {};
-        this.endOfWord = false;
+        this.root = new TrieNode();
     }
 }
